@@ -12,7 +12,7 @@ public class BulletController : MonoBehaviour
 
     private void Update()
     {
-        transform.Translate(Vector3.back * speed * Time.deltaTime);
+        transform.Translate(Vector3.right * speed * Time.deltaTime);
     }
 
     private void OnCollisionEnter(Collision collision)
